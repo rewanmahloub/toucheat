@@ -2,49 +2,28 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu">
 
 
     <ImageView
-        android:id="@+id/menu"
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/menu"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
 
     <ImageView
-        android:id="@+id/menus"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="56dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginLeft="92dp"
-        android:layout_marginRight="92dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="401dp"
-        app:layout_constraintBottom_toTopOf="@+id/alacarte"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/menu"
+        android:layout_width="665dp"
+        android:layout_height="239dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="392dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/meal" />
-
-    <ImageView
-        android:id="@+id/alacarte"
-        android:layout_width="0dp"
-        android:layout_height="226dp"
-        android:layout_marginBottom="258dp"
-        android:layout_marginEnd="90dp"
-        android:layout_marginLeft="90dp"
-        android:layout_marginRight="90dp"
-        android:layout_marginStart="90dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/menus"
-        app:srcCompat="@drawable/alacarte" />
-
 </android.support.constraint.ConstraintLayout>

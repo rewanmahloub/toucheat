@@ -8,16 +8,16 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView acceuil;
+    private ImageView commande;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
 
-        this.acceuil = (ImageView) findViewById(R.id.accueil);
+        this.commande = (ImageView) findViewById(R.id.commander);
 
-        acceuil.setOnClickListener(new View.OnClickListener() {
+        commande.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {

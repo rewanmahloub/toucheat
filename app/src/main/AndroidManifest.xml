@@ -19,7 +19,13 @@
         <activity android:name=".Menu" />
         <activity android:name=".NbClient" />
         <activity android:name=".Clientnb" />
-        <activity android:name=".Menus"></activity>
+        <activity android:name=".BoissonsChoice" />
+        <activity android:name=".Menus" />
+        <activity android:name=".SauceChoice" />
+        <activity android:name=".deuxmeal" />
+        <activity android:name=".troismeal" />
+        <activity android:name=".quatremeal" />
+        <activity android:name=".MainCuisto"></activity>
     </application>
 
 </manifest>
